@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookDetails rendering and button clicks matches snapshot 1`] = `
+<body>
+  <div>
+    <h2>
+      Shopping Cart
+    </h2>
+    <div
+      class="ui middle aligned selection divided list"
+    >
+      <a
+        class="item"
+        href="/books/9783864906466"
+      >
+        <img
+          alt=""
+          class="ui tiny image"
+          src="https://api3.angular-buch.com/images/angular_auflage2.jpg"
+        />
+        <div
+          class="content"
+        >
+          <div
+            class="header"
+          >
+            Angular
+          </div>
+          <div
+            class="description"
+          >
+            Grundlagen, fortgeschrittene Themen und Best Practices – mit NativeScript und NgRx
+          </div>
+          <div
+            class="metadata"
+          >
+            <span>
+              Ferdinand Malcher
+              , 
+            </span>
+            <span>
+              Johannes Hoppe
+              , 
+            </span>
+            <span>
+              Danny Koppenhagen
+            </span>
+            <br />
+            ISBN 
+            9783864906466
+          </div>
+        </div>
+        <div
+          class="right floated content"
+        >
+          <div
+            class="ui buttons"
+          >
+            <label
+              class="ui button"
+              data-testid="count-target"
+            >
+              <i
+                class="shopping cart icon"
+              />
+              1
+            </label>
+            <button
+              class="ui button green"
+            >
+              Add One
+            </button>
+            <button
+              class="ui button red"
+            >
+              Remove One
+            </button>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
+`;

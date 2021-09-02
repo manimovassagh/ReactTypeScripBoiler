@@ -1,0 +1,24 @@
+.bookFom input:invalid {
+  background-color: #ffdddd !important;
+}
+
+.bookFom:invalid {
+  border: 5px solid #ffdddd;
+}
+
+.bookFom input:valid {
+  background-color: #ddffdd !important;
+}
+
+.bookFom:valid {
+  border: 5px solid #ddffdd;
+}
+
+.bookFom input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+.bookFom input:required:invalid {
+  border-color: #c00000;
+}

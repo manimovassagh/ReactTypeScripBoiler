@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookDetails rendering and button clicks matches snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="ui menu"
+    >
+      <a
+        class="item"
+        href="/home"
+      >
+        Home
+      </a>
+      <a
+        class="item"
+        href="/books"
+      >
+        Books
+      </a>
+      <a
+        class="item"
+        href="/books/create"
+      >
+        new Book
+      </a>
+      <a
+        class="item"
+        href="/cart"
+      >
+        Shopping Cart
+      </a>
+      <div
+        class="ui search item right"
+      >
+        <div
+          class="ui icon input"
+        >
+          <input
+            class="prompt"
+            type="text"
+            value=""
+          />
+          <i
+            class="search icon"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ui container"
+    >
+      <h2>
+        Book Details
+      </h2>
+      <div>
+        <h1>
+          Angular
+        </h1>
+        <div
+          class="ui divider"
+        />
+        <div
+          class="ui grid"
+        >
+          <div
+            class="four wide column"
+          >
+            <h4>
+              Autoren
+            </h4>
+            Ferdinand Malcher
+            , 
+            Johannes Hoppe
+            , 
+            Danny Koppenhagen
+          </div>
+          <div
+            class="four wide column"
+          >
+            <h4>
+              ISBN
+            </h4>
+            ISBN 
+            9783864906466
+          </div>
+          <div
+            class="four wide column"
+          >
+            <h4>
+              Erschienen
+            </h4>
+            <p>
+              4/30/2019
+            </p>
+          </div>
+          <div
+            class="four wide column"
+          >
+            <h4>
+              Rating
+            </h4>
+            <i
+              class="yellow star icon"
+            />
+            <i
+              class="yellow star icon"
+            />
+            <i
+              class="yellow star icon"
+            />
+            <i
+              class="yellow star icon"
+            />
+            <i
+              class="yellow star icon"
+            />
+          </div>
+        </div>
+        <h4>
+          Beschreibung
+        </h4>
+        <p>
+          Die Autoren führen Sie mit einem anspruchsvollen Beispielprojekt durch die Welt von Angular. Lernen Sie Schritt für Schritt, wie Sie strukturierte und modulare Single-Page-Anwendungen entwickeln. Nach der erfolgreichen ersten Auflage wurde dieses Buch grundlegend aktualisiert und erweitert:
+      Durchgängig aktualisiert auf Angular 7 und neuere Versionen, Redux mit Reactive Extensions for Angular (NgRx), Ausführliches Kapitel zu RxJS und Observables, Server-Side Rendering mit Angular Universal, HTTP-Interceptoren, Kompakter Schnelleinstieg in Angular mit Stackblitz.
+      Praktisch: Der Programmcode zu jeder einzelnen Entwicklungsphase ist auf GitHub verfügbar. So können Sie alle Schritte gut nachvollziehen und auch Teile überspringen.
+      Die Autoren Ferdinand Malcher, Johannes Hoppe und Danny Koppenhagen sind erfahrene Workshopleiter und internationale Konferenzsprecher. In diesem praxisorientierten Buch vermitteln sie die Erkenntnisse und Best Practices aus über 3 Jahren täglicher Arbeit mit Angular. Neben den Grundlagen werden auch fortgeschrittene Themen abgedeckt. Weitere behandelte Themen sind unter anderem:
+      Testing mit Jasmine, Karma und Protractor, Angular CLI, Komponenten, Pipes und Direktiven, Modulsystem, Routing, Formularverarbeitung, Dependency Injection und Services, Ahead-of-Time-Kompilierung (AOT), Deployment, Internationalisierung (i18n), Mobile Anwendungen mit NativeScript.
+      Das Buch setzt lediglich Vorkenntnisse in JavaScript, HTML und CSS voraus. Wer noch nicht mit TypeScript vertraut ist, findet in diesem Buch eine kompakte Einführung.
+      Nach der Lektüre sind Sie für den Projektalltag mit Angular gewappnet und können robuste Webanwendungen mit dem Framework entwickeln. Auf der Website zum Buch werden außerdem regelmäßig Aktualisierungen und Neuigkeiten rund um Angular veröffentlicht.
+        </p>
+        <div
+          class="ui small images"
+        >
+          <img
+            alt="Front Cover"
+            src="https://api3.angular-buch.com/images/angular_auflage2.jpg"
+          />
+          <img
+            alt="Rückseite"
+            src="https://api3.angular-buch.com/images/angular_auflage2_back.jpg"
+          />
+          <img
+            alt="Update Hinweis"
+            src="https://api3.angular-buch.com/images/angular_auflage2_update-note.jpg"
+          />
+          <img
+            alt="Als gebundenes Buch und E-Book verfügbar"
+            src="https://api3.angular-buch.com/images/angular_auflage2_book+ebook.jpg"
+          />
+        </div>
+      </div>
+      <button
+        class="ui button"
+      >
+        Back
+      </button>
+      <button
+        class="ui red button"
+      >
+        Delete
+      </button>
+      <button
+        class="ui green button"
+      >
+        Add To Cart
+      </button>
+      <a
+        class="ui yellow button"
+        href="/books/edit/9783864906466"
+      >
+        Edit
+      </a>
+    </div>
+  </div>
+</body>
+`;

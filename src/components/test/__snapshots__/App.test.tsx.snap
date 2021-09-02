@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> without Routing matches snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="ui menu"
+    >
+      <a
+        aria-current="page"
+        class="item active"
+        href="/home"
+      >
+        Home
+      </a>
+      <a
+        class="item"
+        href="/books"
+      >
+        Books
+      </a>
+      <a
+        class="item"
+        href="/books/create"
+      >
+        new Book
+      </a>
+      <a
+        class="item"
+        href="/cart"
+      >
+        Shopping Cart
+      </a>
+      <div
+        class="ui search item right"
+      >
+        <div
+          class="ui icon input"
+        >
+          <input
+            class="prompt"
+            type="text"
+            value=""
+          />
+          <i
+            class="search icon"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ui container"
+    >
+      <h4>
+        Willkommen beim BookMonkey
+      </h4>
+      <a
+        class="ui red button"
+        href="/books"
+      >
+        Buchliste ansehen
+      </a>
+      <h2>
+        Book Search
+      </h2>
+      <div
+        class="ui search undefined"
+      >
+        <div
+          class="ui icon input"
+        >
+          <input
+            class="prompt"
+            type="text"
+            value=""
+          />
+          <i
+            class="search icon"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
