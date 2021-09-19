@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 All Things Are Properly configured
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Boilerplate
+
 ## Available Scripts
 
 In the project directory, you can run:
